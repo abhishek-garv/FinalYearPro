@@ -1,3 +1,4 @@
+// head bar
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
@@ -13,7 +14,7 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
-
+// gallery 
 var slide = document.getElementById("header");
 showSlide(1);
 slide_index=1;
@@ -51,7 +52,7 @@ function addslide(n)
    	   showSlide(2);
    }
 }
-
+//login page 
 function fun(){
 	document.getElementById("im").style.display="block";
 	document.getElementById("user-name").style.display="block";
